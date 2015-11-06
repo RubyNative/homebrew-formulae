@@ -6,6 +6,6 @@ class Diamond < Formula
 
   def install
     system 'xcrun', "xcodebuild", 'build'
-    system "ln ~/bin/diamond #{prefix}"
+    system "ln ~/bin/diamond #{prefix}/diamond"
   end
 end
